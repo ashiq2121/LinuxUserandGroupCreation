@@ -12,7 +12,7 @@ This project covers activties related to managing local users and groups in Linu
 
 <p align="center">
 Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/nrYw9U8.png" height="80%" width="80%"/>
 <br />
 <br />
 Select the disk:  <br/>
