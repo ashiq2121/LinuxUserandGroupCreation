@@ -8,23 +8,30 @@ This project covers activties related to managing local users and groups in Linu
 
 - <b>Rocky 9.2</b>
 
-<h2>Activity 1: Create a user named superman and confirm that it exists in the system</h2>
+<h2>Activity 1:</h2> 
+In this activity, we will run through some commands related to user creation and deletion. I have segregated the entire activity into different sections so that it is easier to follow.<br/>
+a. Create 3 users named operator1, operator2 and operator3. Set passwords for each of them, and confirm that it exists in the system.<br/>
+b. Update operator1 and operator2 to include the comments "superman" and "batman" respectively.<br/>
+c. Remove operator3 from the system. Confirm that this user no longer exist.<br/>
 
+<h3>Part a</h3>
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/nrYw9U8.png" height="80%" width="80%"/>
+Add the users (follow the command below). Ensure that you are a root user. The password I used here for all accounts are "redhat", which is why there was a password warning. You'd definitely want to create a stringer password when creating new user, ideally a password with at least 12 characters that has uppercase and lowercase characters, numbers and special characters. <br/>
+<img src="https://i.imgur.com/DHX91IA.png" height="80%" width="80%"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+We can confirm that the users are created by checking the /etc/passwd file.  <br/>
+<img src="https://i.imgur.com/bHd3dW2.png" height="80%" width="80%" alt="confirmation"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<h3>Part b</h3>
+Now to update the comments for a couple of these users. Basically, this would be a brief comment, description or real name of the user. We can confirm that comments have been added. <br/>
+<img src="https://i.imgur.com/fWaeC2l.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<h3>Part c</h3>
+Now let's remove operator3 from the system. We can confirm that the user is gone, and doesn't exist in the home directory as well.  <br/>
+<img src="https://i.imgur.com/0goUgMt.png" height="80%" width="80%" alt="User Deleted"/>
 <br />
 <br />
 Wait for process to complete (may take some time):  <br/>
