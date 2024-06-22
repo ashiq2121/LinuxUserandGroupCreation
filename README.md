@@ -1,4 +1,4 @@
-# Linux Permissions
+# Linux User and Group Creation
 
 <h2>Description</h2>
 This project covers activties related to managing local users and groups in Linux.
