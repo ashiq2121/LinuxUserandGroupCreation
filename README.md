@@ -15,7 +15,7 @@ b. Update operator1 and operator2 to include the comments "superman" and "batman
 c. Remove operator3 from the system. Confirm that this user no longer exist.<br/>
 
 <h3>Part a</h3>
-<p align="center">
+
 Add the users (follow the command below). Ensure that you are a root user. The password I used here for all accounts are "redhat", which is why there was a password warning. You'd definitely want to create a stringer password when creating new user, ideally a password with at least 12 characters that has uppercase and lowercase characters, numbers and special characters. <br/>
 <img src="https://i.imgur.com/DHX91IA.png" height="80%" width="80%"/>
 <br />
