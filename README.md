@@ -34,8 +34,11 @@ Now let's remove operator3 from the system. We can confirm that the user is gone
 <img src="https://i.imgur.com/0goUgMt.png" height="80%" width="80%" alt="User Deleted"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<h2>Activity 2:</h2>
+Now we will look at group management.<br/>
+Create the "operators" group with a GID of 30000, add operator1, operator2 and operator3 users to the operator group and confirm that they are in the group.<br/>
+Follow the steps shows in the screenshot:  <br/>
+<img src="https://i.imgur.com/2lWdzU8.png" height="80%" width="80%" alt="Creation of group"/>
 <br />
 <br />
 Sanitization complete:  <br/>
